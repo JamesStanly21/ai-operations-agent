@@ -219,6 +219,14 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+# Local Google OAuth material (never commit credentials or tokens)
+credentials.json
+token.json
+*.google-token.json
+*.token.json
+*google*credentials*.json
+.google_calendar_token.json
+
 # Node
 node_modules/
 dist/
